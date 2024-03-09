@@ -18,4 +18,4 @@ if __name__ == "__main__":
     
 calculator = Calculator()
 result = calculator.devide(6, 2)
-print('діленя:', result)
+print('Sum:', result)
