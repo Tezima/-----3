@@ -36,7 +36,7 @@ class TestCalculator(unittest.TestCase):
         result=self.calculator.multiply(a,b)
         self.assertAlmostEqual(result,54,"Добуток 9 і 6 має бути 54")
 
-        def test_divide_positive_numbers(self):
+    def test_divide_positive_numbers(self):
         a,b=6,2
         result=self.calculator.divide(a,b)
         self.assertEqual(result,3,"Результат ділення має бути 3")
